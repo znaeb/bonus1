@@ -9,15 +9,23 @@
 	<h1 class="h1">Predictive Search</h1>
 
 	<div class="flexsearch">
-		<div class="flexsearch-wrapper">
+		<div class="flexsearch-wrapper" id="searchWrap">
 			<!-- You'll handle the form with js, so no need for method and action -->
 			<form class="flexsearch-form" id="mainForm">
-				<div class="flexsearch-input-wrapper">
-					<input class="flexsearch-input" type="search" placeholder="search">
+				<div class="flexsearch-input-wrapper" >
+					<input class="flexsearch-input" type="search" autocomplete="off" id="search" placeholder="search">
+
+
 				</div>
 				<input class="flexsearch-submit" type="submit" value="&#10140;"/>
+
 			</form>
+
+			<li class="flexsearch-dropdown" id="autoComp" >
+
+			</li>
 		</div>
+
 	</div>
 
 

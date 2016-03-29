@@ -16,6 +16,8 @@
 .flexsearch-form {
   overflow: hidden;
   position: relative;
+
+
 }
 
 .flexsearch-input-wrapper {
@@ -65,6 +67,26 @@
   font-size: 40px;
   line-height: 60px;
 }
+.flexsearch-dropdown-wrapper {
+
+}
+.flexsearch-dropdown {
+  position:static;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: auto;
+  width: 100%;
+  padding: 0 46px 0 10px;
+  //background-color: #e5e5e5;
+  color: #242424;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 26px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+}
+
 
 .flexsearch-input:focus {
   outline: none;
@@ -74,6 +96,10 @@
 .flexsearch-input:focus.flexsearch-submit {
   color: #333;
 }
+
+/*.flexsearch-input:focus.flexsearch-dropdown {
+  color: #333;
+}*/
 
 .flexsearch-submit:hover {
   color: #333;
